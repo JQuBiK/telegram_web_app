@@ -1,0 +1,22 @@
+.header-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list-item {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    width: auto;
+    height: auto;
+}
+
+.header-get-info-btn {
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
