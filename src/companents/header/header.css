@@ -3,6 +3,7 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 .header-list-item {
@@ -10,13 +11,25 @@
     font-weight: 700;
     line-height: 42px;
     width: auto;
-    height: auto;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.header-get-info-btn {
-    background-color: transparent;
+.header-get-info-btn,
+.header-notification-btn {
     border: none;
     width: 24px;
     height: 24px;
     cursor: pointer;
+    padding: 0;
+}
+
+.header-get-info-btn {
+    background: url(./img/info.png) center center/cover no-repeat;
+}
+
+.header-notification-btn {
+    background: url(./img/notification.png) center center/cover no-repeat;
 }

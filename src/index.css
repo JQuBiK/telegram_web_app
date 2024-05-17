@@ -8,8 +8,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
-  max-width: 560px;
-  width: 100%;
 }
 
 code {
